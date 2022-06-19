@@ -1,0 +1,137 @@
+.profile-container {
+	background-color: #fff;
+	-webkit-filter: drop-shadow(2px 3px 4px var(--dark-blue));
+	filter: drop-shadow(2px 3px 4px var(--dark-blue));
+	border-radius: 10px;
+	padding: 2em;
+	width: 100%;
+}
+
+.profile-container form {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: auto;
+}
+
+.profile-label_avatar {
+	width: min-content;
+	height: auto;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.profile-label_avatar input {
+	display: none;
+}
+
+.profile-label_avatar span {
+	z-index: 99;
+	position: absolute;
+	opacity: 0.5;
+	transition: all 0.5s;
+}
+
+.profile-label_avatar img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	transition: all 0.5s;
+	object-fit: cover;
+}
+
+.profile-label_avatar span:hover,
+.profile-label_avatar:hover span {
+	opacity: 1;
+	transform: scale(1.4);
+}
+
+.profile-label_avatar span:hover ~ img,
+.profile-label_avatar img:hover {
+	filter: brightness(0.5);
+}
+
+.profile-text_labels {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: 0 3em;
+}
+
+.profile-text_labels label {
+	margin: 5px 0;
+	font-size: 1.2em;
+}
+
+.profile-text_labels input {
+	margin-bottom: 20px;
+	padding: 5px;
+	font-size: 1.1em;
+	border-radius: 5px;
+	border: none;
+	background-color: var(--light-gray);
+}
+
+.profile-text_labels input:disabled {
+	color: #000;
+	cursor: not-allowed;
+}
+
+.profile-text_labels button {
+	margin: 0.8em 0;
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+	font-size: 1em;
+	background-color: var(--dark-blue);
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.profile-text_labels button:hover {
+	opacity: 0.6;
+}
+
+#logout_button {
+	padding: 7px;
+	border-radius: 5px;
+	display: block;
+
+	width: 12em;
+	border: none;
+	font-size: 1em;
+	background-color: rgb(201, 0, 0);
+	color: #fff;
+	transition: all 0.5s;
+}
+
+#logout_button:hover {
+	opacity: 0.6;
+}
+
+#logout_button:disabled {
+	opacity: 0.6;
+	cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+	.profile-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.profile-container form {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.profile-text_labels,
+	#logout_button {
+		width: 90%;
+	}
+}

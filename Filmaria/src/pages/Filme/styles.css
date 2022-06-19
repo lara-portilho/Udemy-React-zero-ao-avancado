@@ -1,0 +1,75 @@
+.filmeData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    background-color: brown;
+    margin: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.filmeData h1 {
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+}
+
+.filmeData img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.filmeData h3 {
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+}
+
+.filmeData p {
+    color: white;
+    margin: 10px;
+}
+
+.mainBtn, .voltar {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.mainBtn {
+    background-color: white;
+}
+
+.mainBtn a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainBtn:hover, .voltar:hover {
+    opacity: 0.6;
+}
+
+.mainBtn:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.voltar {
+    background-color: brown;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: white;
+}
+
+.carregando {
+    margin-top: 100px;
+    font-size: 50px;
+}

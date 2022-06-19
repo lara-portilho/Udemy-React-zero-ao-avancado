@@ -1,0 +1,38 @@
+.title {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.reservas {
+	padding: 20px;
+	margin-bottom: 10px;
+	background: #fff;
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.reservas img {
+	height: 100px;
+	border-radius: 4px;
+}
+
+.reservas #amount {
+	display: flex;
+	align-items: center;
+}
+
+.reservas #amount span {
+	margin: 0 5px;
+}
+
+.reservas #amount button {
+	border-radius: 50%;
+}
+
+.reservas button {
+	border: 0;
+	background: #fff;
+}

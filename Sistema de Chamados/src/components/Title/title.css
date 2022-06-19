@@ -1,0 +1,17 @@
+.title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2em;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 1em;
+	-webkit-filter: drop-shadow(2px 3px 4px var(--dark-blue));
+	filter: drop-shadow(2px 3px 4px var(--dark-blue));
+}
+
+.title h1 {
+	margin-left: 0.5em;
+	font-size: 1.5em;
+	font-weight: 400;
+}

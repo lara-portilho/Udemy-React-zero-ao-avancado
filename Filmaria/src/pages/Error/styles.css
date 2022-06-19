@@ -1,0 +1,31 @@
+.erro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.erro a {
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.erro a:hover {
+    opacity: 0.6;
+}
+
+.erro h1 {
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+.erro h2 {
+    margin-top: 30px;
+    font-size: 40px;
+}
