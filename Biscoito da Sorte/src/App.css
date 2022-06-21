@@ -1,0 +1,43 @@
+.container {
+	text-align: center;
+	margin: 0 auto 0;
+	display: block;
+	background-color: #cbf6db;
+	border-left: 5px solid #9bc472;
+	border-right: 5px solid #9bc472;
+	min-height: 100vh;
+	max-width: 50%;
+}
+
+.title {
+	font-size: 4rem;
+	padding: 20px;
+}
+
+.description {
+	font-size: 1.5rem;
+	padding-bottom: 40px; 
+}
+
+.imagem {
+	width: 250px;
+	padding: 20px 0;
+	border-radius: 30%;
+	transition: 500ms;
+}
+
+.imagem:hover {
+	opacity: 0.6;
+}
+
+.fortune {
+	font-size: 1.4rem;
+	font-style: italic;
+	padding: 30px;
+}
+
+.credits {
+	position: fixed;
+	padding: 0 30px 5px;
+	bottom: 0;
+}
