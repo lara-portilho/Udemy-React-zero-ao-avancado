@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Udemy - Curso React Js do zero ao avançado na pratica</h1>
+  <h1>Udemy - Curso React zero ao avançado</h1>
   <p><i>Repositório utilizado para abranger os projetos do curso React Js do zero ao avançado na pratica</i></p>
 </div>
 
