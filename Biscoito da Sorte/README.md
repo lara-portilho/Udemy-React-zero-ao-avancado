@@ -1,10 +1,30 @@
-# Biscoito da Sorte
+<div align="center">
+  <h1>Biscoito da Sorte</h1>
+</div>
 
+## Sumário
 
-## Para acessar o site, [clique aqui](https://lara-portilho.github.io/Biscoito-da-Sorte/)!
+- [Informações Gerais](#informações-gerais)
+- [Tecnologias](#tecnologias)
+- [Instalação](#instalação)
 
----
+## Informações Gerais
 
-Este foi um projeto de aprendizado utilizando a biblioteca [<img src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react_logo.png" alt="react" height="11" /> React](https://reactjs.org/) do [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="react" height="11" /> JavaScript](https://www.javascript.com/). Nele, foram utilizados os `class components`, além de um arquivo JSON. Para utilizar a aplicação, basta clicar no biscoito da sorte que aparece no centro da página.
+Este projeto foi criado para o início do aprendizado de React, utilizando `class components`.
 
 ### Crédito das frases: [Blog do Casamento](https://www.blogdocasamento.com.br/70-frases-para-seus-biscoitos-da-sorte/)
+
+## Tecnologias
+
+- React
+
+## Instalação
+
+### Pré-requisitos
+
+- Possuir Node e Yarn instalado
+
+1. Clone o repositório e acesse este diretório
+2. `$ yarn`
+3. `$ yarn dev`
+4. Acesse http://localhost:3000
